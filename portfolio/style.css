@@ -42,7 +42,8 @@ h1 {
 /*///////////// HERO TAB ///////////*/
 
 .indexbox {
-    display: inline-flex;
+    display: flex;
+    text-align: center;
     align-items: center;
     border: solid black 1px;
     padding-top: 10px;
@@ -58,7 +59,7 @@ h1 {
     line-height: 0px;
     margin-bottom: 20px;
     border: solid black 1px;
-    
+    width: 830px;
 }
 
 .descandlink {
