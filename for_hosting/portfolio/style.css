@@ -50,24 +50,6 @@ h1 {
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1500px) {
-    .indexbox {
-      flex-direction: column;
-    }
-    .indexdesc p {
-        font-size:10px;
-    }
-    .indexdesc h3 {
-        font-size:30px;
-    }
-    .indexdesc blockquote {
-        font-size:10px;
-    }
-    .heroimage img{
-        height: 25em;
-    }
-  }
-
 .indexdesc {
     background-color: rgb(234, 234, 234);
     border-radius: 40px;
@@ -77,13 +59,111 @@ h1 {
     border: solid black 1px;
 }
 
-.heroimage {
-    height: 595px;
-    position: relative;
-    top: 16px;
-    padding-left: 30px;
+.indexdesc p {
+    font-size:25px; 
+    font-weight: lighter; 
+    padding-bottom: 5px;
+}
+.degree {
+    font-size:30px; 
+    font-weight: bold; 
+    padding-bottom: 20px;
+}
+.indexdesc h3 {
+    padding-top: 20px;
+    font-size:60px; 
+    padding-bottom: 40px
+}
+.indexdesc blockquote {
+    font-size:38px; 
+    font-style: italic;
 }
 
+@media screen and (max-width: 1400px) {
+    .indexbox {
+      flex-direction: row;
+      padding: 20px;
+      padding-top: 40px;
+      padding-right: 35px;
+    }
+    .indexdesc p {
+        font-size:20px;
+    }
+    .degree {
+        font-size:25px; 
+    }
+    .indexdesc h3 {
+        font-size:50px;
+    }
+    .indexdesc blockquote {
+        font-size:33px;
+    }
+    .heroimage {
+        height: 500px;
+    }
+    .heroimage img{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    
+    .indexdesc h3 {
+        font-size:40px;
+    }
+    .heroimage {
+        height: 450px;
+    }
+    .heroimage img{
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .indexbox {
+      flex-direction: column;
+      padding: 0px 0px 0px 0px;
+    }
+    .indexdesc p {
+        font-size:18px;
+    }
+    .degree {
+        font-size:22px; 
+    }
+    .indexdesc h3 {
+        font-size:35px;
+    }
+    .indexdesc blockquote {
+        font-size:24px;
+    }
+    .heroimage {
+        height: 300px;
+    }
+    .heroimage img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .indexdesc h3 {
+        font-size:30px;
+    }
+    .heroimage {
+        height: 260px;
+    }
+    .heroimage img{
+        height: 260px;
+    }
+    
+}
+
+.heroimage {
+    height: auto;
+    position: relative;
+    top: 5px;
+    padding-left: 30px;
+}
 
 .linkedindex {
     background-color: rgb(234, 234, 234);
@@ -103,7 +183,6 @@ h1 {
 .linkedintext a {
     text-decoration: none;
 }
-
 
 /*//////////// PROGRESS TAB /////////*/
 
